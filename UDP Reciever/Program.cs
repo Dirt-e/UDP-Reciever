@@ -6,21 +6,19 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UDP_Reciever
+namespace UDP_Receiver
 {
     class Program
     {
         static void Main()
         {
-            UdpClient receivingUdpClient = new UdpClient(10000);
-            IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
+            UdpClient MyClient = new UdpClient(10000);
+            IPEndPoint MyEndPoint = new IPEndPoint(IPAddress.Any, 0);
 
             while (true)
             {
-                Byte[] receiveBytes = receivingUdpClient.Receive(ref RemoteIpEndPoint);
-
-                string message = Encoding.ASCII.GetString(receiveBytes);
-
+                Byte[] bytes = MyClient.Receive(ref MyEndPoint);
+                string message = Encoding.ASCII.GetString(bytes);
                 Console.WriteLine("You received: " + message.ToString());
             }
         }
