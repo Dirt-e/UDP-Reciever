@@ -12,8 +12,12 @@ namespace UDP_Receiver
     {
         static void Main()
         {
-            UdpClient MyClient = new UdpClient(10000);
+            int port = 31090;
+
+            UdpClient MyClient = new UdpClient(port);
             IPEndPoint MyEndPoint = new IPEndPoint(IPAddress.Any, 0);
+
+            Console.WriteLine("Receiving on port: " + port.ToString());
 
             while (true)
             {

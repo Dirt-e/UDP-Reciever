@@ -1,0 +1,8 @@
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\bin\Debug\UDP Reciever.exe.config
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\bin\Debug\UDP Reciever.exe
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\bin\Debug\UDP Reciever.pdb
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\obj\Debug\UDP Receiver.csproj.AssemblyReference.cache
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\obj\Debug\UDP Receiver.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\obj\Debug\UDP Receiver.csproj.CoreCompileInputs.cache
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\obj\Debug\UDP Reciever.exe
+D:\OneDrive\Frank - PC\GitHub\UDP-Reciever\UDP Reciever\obj\Debug\UDP Reciever.pdb
