@@ -14,4 +14,3 @@ bld/
 *.user
 *.sln.docstates
 .vs
-*.cache
